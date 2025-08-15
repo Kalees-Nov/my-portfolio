@@ -1,7 +1,7 @@
 // src/App.jsx
 import React, { useEffect } from "react";
 import Navbar from "./Components/Navbar/Nav";
-import Home from "./Components/Home/Home";
+import Home from "./Components/Home/Home.jsx";
 import AboutMe from "./Components/About/AboutMe";
 import Projects from "./Components/Project/Projects";
 import Skills from "./Components/Skills/Skill";
