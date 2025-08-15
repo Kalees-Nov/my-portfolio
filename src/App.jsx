@@ -1,12 +1,12 @@
 // src/App.jsx
 import React, { useEffect } from "react";
-import Navbar from "./components/Navbar/Navbar";
+import Navbar from "./Components/Navbar/Nav";
 import Home from "./components/Home/Home";
-import AboutMe from "./components/AboutMe/AboutMe";
-import Skills from "./components/Skills/Skills";
-import Projects from "./components/Projects/Projects";
+import AboutMe from "./Components/About/AboutMe";
+import Skills from "./components/Skills/Skill";
+import Projects from "./components/Project/Projects";
 import Contact from "./Components/Contact/Contacts";
-import Footer from "./components/Footer/Footer";
+import Footer from "./components/Footers/Footer";
 
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./global.css";
