@@ -2,7 +2,7 @@ import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./global.css";
 
-import NavbarComp from "./components/navabar/navbar";
+import Navbar from "./Components/Navbar/navbar";
 import Home from "./components/Home/home";
 import AboutMe from "./components/About/AboutMe";
 import Skills from "./components/Skills/Skill";
@@ -13,7 +13,7 @@ import Footer from "./Components/Footers/Footer";
 function App() {
   return (
     <>
-      <NavbarComp />
+      <Navbar />
       <main>
         <Home />
         <AboutMe />
