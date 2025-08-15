@@ -3,7 +3,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "./global.css";
 
 import Navbar from "./Components/Navbar/NavbarComponent";
-import Home from "./components/Home/Home";
+import Home from "./Components/Home/Home";
 import AboutMe from "./components/About/AboutMe";
 import Skills from "./components/Skills/Skill";
 import Projects from "./components/Project/Projects";
