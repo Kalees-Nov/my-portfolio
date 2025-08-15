@@ -1,27 +1,32 @@
-import React from "react";
+// src/App.jsx
+import React, { useEffect } from "react";
+import Navbar from "./components/Navbar/Navbar";
+import Home from "./components/Home/Home";
+import AboutMe from "./components/AboutMe/AboutMe";
+import Skills from "./components/Skills/Skills";
+import Projects from "./components/Projects/Projects";
+import Contact from "./Components/Contact/Contacts";
+import Footer from "./components/Footer/Footer";
+
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./global.css";
-
-import Navbar from "./Components/Navbar/NavbarComponent";
-import Home from "./Components/Home/Home";
-import AboutMe from "./components/About/AboutMe";
-import Skills from "./components/Skills/Skill";
-import Projects from "./components/Project/Projects";
-import Contact from "./Components/Contact/Contact";
-import Footer from "./Components/Footers/Footer";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 function App() {
+  useEffect(() => {
+    AOS.init({ duration: 1000, once: true });
+  }, []);
+
   return (
     <>
       <Navbar />
-      <main>
-        <Home />
-        <AboutMe />
-        <Skills />
-        <Projects />
-        <Contact />
-        <Footer />
-      </main>
+      <Home />
+      <AboutMe />
+      <Skills />
+      <Projects />
+      <Contact />
+      <Footer />
     </>
   );
 }
