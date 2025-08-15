@@ -1,0 +1,54 @@
+/* Reset & base */
+* { box-sizing: border-box; }
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+  background: #f8fafc;
+  color: #0f172a;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+/* Hide scrollbars visually (scroll still works) */
+html { scrollbar-width: none; }
+html::-webkit-scrollbar { display: none; }
+
+/* Fixed navbar spacing (match Navbar height) */
+body { padding-top: 72px; }
+
+/* Sections */
+section { padding: 80px 0; }
+section h1, section h2, section p { margin-top: 0; }
+
+/* Gradient utility */
+.gradient-bg {
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+/* CTA / Primary button look */
+.btn-primary-gradient,
+.gradient-btn {
+  display: inline-block;
+  padding: 10px 22px;
+  border-radius: 28px;
+  border: none;
+  text-decoration: none;
+  color: #fff !important;
+  font-weight: 600;
+  transition: transform .25s ease, box-shadow .25s ease;
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+.btn-primary-gradient:hover,
+.gradient-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 18px rgba(0,212,255,.35);
+}
+
+/* Section titles */
+.section-title {
+  text-align: center;
+  font-weight: 800;
+  color: #2563eb;
+  margin-bottom: 36px;
+}

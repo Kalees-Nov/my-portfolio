@@ -1,0 +1,17 @@
+.projects-section { background: #f1f5f9; }
+.projects-slider-wrapper { max-width: 900px; margin: 0 auto; padding: 0 16px; }
+.projects-slider { padding: 6px 0; }
+.project-card {
+  background: #fff; border-radius: 16px; padding: 26px; margin: 0 8px;
+  box-shadow: 0 8px 28px rgba(15,23,42,.06);
+}
+.project-card h3 { margin: 0 0 8px; color: #1e40af; }
+.project-card .desc { color: #334155; margin: 0 0 12px; }
+.tech-stack { margin-bottom: 12px; }
+.tech {
+  display: inline-block; margin: 4px 6px 0 0; font-size: .85rem;
+  background: #dbeafe; color: #1d4ed8; padding: 6px 10px; border-radius: 999px;
+}
+.project-links {
+  display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; margin-top: 6px;
+}
