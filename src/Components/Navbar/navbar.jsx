@@ -2,7 +2,7 @@ import React from "react";
 import { Navbar, Container, Nav, Button } from "react-bootstrap";
 import "./Navbar.css";
 
-function Navbar() {
+function NavbarComponent() {
   return (
     <Navbar expand="lg" fixed="top" className="custom-navbar" variant="dark">
       <Container>
@@ -23,4 +23,4 @@ function Navbar() {
   );
 }
 
-export default Navbar;
+export default NavbarComponent;
